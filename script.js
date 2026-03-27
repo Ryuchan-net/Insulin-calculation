@@ -87,11 +87,11 @@ document.getElementById('calculate').onclick = function () {
  
 
  
-  document.getElementById("result10").innerHTML = "カーボ：" + zenk3 + "  ÷１０ ＝  " + zenk4 ;
-  document.getElementById("result11").innerHTML = "インスリン単位：" + zenk4 + " × "+ zenk5  +" ＝ " + zenk6  ;
-  document.getElementById("result12").innerHTML = "下げたい値：" + zenk7 + " － " + zenk1 +  " ＝ " + zenk8 ;
-  document.getElementById("result13").innerHTML = "補正単位：" + zenk8 + " ÷ "+ zenk2  +" ＝ " + zenk9  ;
-  document.getElementById('result15').innerHTML = "修正後単位：" + zenk10+" ≈ " + zenk11 +"単位" ;
+  document.getElementById("result10").innerHTML = "カーボ：" + zenk3 + " ÷１０ ＝ " + zenk4 ;
+  document.getElementById("result11").innerHTML = "インスリン単位：" + zenk4 + "×"+ zenk5  +"＝" + zenk6  ;
+  document.getElementById("result12").innerHTML = "下げたい値：" + zenk7 + "－" + zenk1 +  "＝" + zenk8 ;
+  document.getElementById("result13").innerHTML = "補正単位：" + zenk8 + "÷"+ zenk2  +"＝" + zenk9  ;
+  document.getElementById('result15').innerHTML = "修正後単位：" + zenk10+"≈" + zenk11 +"単位" ;
   document.getElementById('result16').innerHTML = "合計インスリン単位は、" + zenk11 +"単位" ;
 
   
@@ -99,9 +99,9 @@ document.getElementById('calculate').onclick = function () {
    console.log (fusu1);
  if (fusu1 == -1){
 
-     document.getElementById("result14").innerHTML = "計算後単位：" + zenk6 + " ＋ " +  "(" +zenk9 + ")"  + "＝ " + zenk10 ;
+     document.getElementById("result14").innerHTML = "計算後単位：" + zenk6 + "＋" +  "(" +zenk9 + ")"  + "＝" + zenk10 ;
  } else {
-     document.getElementById("result14").innerHTML = "計算後単位：" + zenk6 + " ＋ " +zenk9 + " ＝ " + zenk10 ;
+     document.getElementById("result14").innerHTML = "計算後単位：" + zenk6 + "＋" +zenk9 + "＝" + zenk10 ;
  }
 
 

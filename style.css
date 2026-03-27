@@ -1,0 +1,191 @@
+ @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&family=M+PLUS+Rounded+1c&display=swap');
+
+
+ .diet_form {
+    background: #8ae2cf;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+    font-family: "M PLUS 1 Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    
+    
+   }
+
+.diet_form2 {
+    background: #8ae2cf;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+    font-family: "M PLUS 1 Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    
+    
+   }
+
+.diet_form3 {
+    background: #8ae2cf;
+    padding: 10px 30px;
+    border-radius: 10px;
+    
+    font-family: "M PLUS 1 Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    
+   }
+
+
+
+
+ h1{
+    font-family: "M PLUS 1 Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px;
+    
+   }
+  /*
+ form dl dt {
+    width: 150px;
+    height: 40px;
+    padding: 10px 0;
+    line-height: 40px;
+    float: left;
+   }
+
+
+ form dl dd {
+    padding: 10px 0;
+    margin: 0;
+    font-size: 8px;
+   }
+*/
+ label{
+    display: inline-block;
+    text-align: right;
+    padding: 10px 0;
+    width: 130px;
+
+   } 
+
+
+
+ .label-container3 {
+    display:flex;
+    width: 140px;
+    display: inline-block;
+   }
+
+
+ .box {
+
+   box-sizing: border-box;
+    width: 100px;
+    height: 30px;
+    margin: 0 ;
+    padding: 0 5px ;
+      
+    
+
+ 
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: left;
+        
+   }
+
+ .UP_SP1 {
+      margin-top: 5px;
+    
+ } 
+
+ .UP_SP2 {
+      margin-top: 1px;
+    
+ } 
+
+ .highlight {
+  text-decoration:underline;
+  font-weight: bold;
+
+ }
+ 
+
+ .calc-btn1 {
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 80px;
+    
+    border-radius: 5px;
+    border: 1px solid #333;
+ } 
+
+ .calc-btn:hover {
+    cursor: pointer;
+ }
+
+
+ .options{
+       width: 120px ;
+       height: 30px;
+       margin: 0 ;
+       
+       padding: 0 0px ;
+
+       font-size: 15px;
+       border-radius: 5px;
+       text-align: left;
+
+
+
+   }
+
+
+    
+
+
+
+ input[type="number"]::-webkit-outer-spin-button,
+ input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none!important;
+    margin: 0!important;
+ }
+
+
+ .box-011 {
+    position: relative;
+    max-width: 350px;
+    margin: 30px 5px 0;
+    padding: 5px 1.5em;
+    border: 2px solid #2589d0;
+    border-radius: 3px;
+ }
+
+ .box-011 span {
+    position: absolute;
+    top: -23Px;
+    left: -2px;
+    padding: .2em .8em;
+    border-radius: 5px 5px 0 0;
+    font-size: 14px;
+    background-color: #2589d0;
+    color: #fff;
+ }
+
+ .box-011 p {
+    margin: 0;
+    margin-top: 0;
+    padding-top: 0px;
+    font-size: 14px;
+    color: #333;
+ }
+
+
+
